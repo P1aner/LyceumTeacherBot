@@ -15,8 +15,8 @@ sheet-config:
      yearSchedule: A1:D6
      tasks: A1:CGZ38
      consolidateStatement: A1:AC32
-     allStudents: A2:F100
-     allTeachers: A2:F100
+     allStudents: A2:F
+     allTeachers: A2:F
      absenteeismType: A2:B10
   sheet-lists:
      journals: journals

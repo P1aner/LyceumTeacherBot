@@ -94,7 +94,7 @@ public class JournalService {
                 .forEach(task -> task.getSubjectNumbers()
                         .forEach(subjectNumber -> {
                             if (typeAndValueOfAbsenteeismRepository.getAllTypeAndValueOfAbsenteeism().containsKey(subjectNumber.getValueOfTask())) {
-                                studentWithNumberAndNumberOfTasks.add(new StudentWithNumberAndNumberOfTask(subjectNumber.getStudent().getUserLastName(),
+                                studentWithNumberAndNumberOfTasks.add(new StudentWithNumberAndNumberOfTask(subjectNumber.getStudent().getUserLastName() + " " + subjectNumber.getStudent().getUserFirstName(),
                                         subjectNumber.getValueOfTask(),
                                         task.getTaskNumber()));
                             }

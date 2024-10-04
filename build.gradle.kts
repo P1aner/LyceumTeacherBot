@@ -7,11 +7,11 @@ plugins {
 val telegrambotsVersion = "7.9.1"
 
 group = "by.faeton"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.1-SNAPSHOT"
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)
+		languageVersion = JavaLanguageVersion.of(17)
 	}
 }
 
